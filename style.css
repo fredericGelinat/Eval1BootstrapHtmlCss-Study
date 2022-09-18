@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #f2e7dc;
+    /* background-color: #333; */
+    height: 100vh;
+    /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    font-family: "Raleway", Arial, sans-serif;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  header nav .btn-outline-primary {
+    color: #00458f;
+  }
+  
+  /**** css *** navbar*/
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul li {
+    position: relative;
+    list-style: none;
+    margin: 5px;
+  }
+  
+  a {
+    position: relative;
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    overflow: hidden;
+  }
+  
+  ul li a span {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: rgb(7, 7, 7);
+    font-size: 20px;
+    text-transform: capitalize;
+    transition-delay: 0.5s;
+    margin-top: 4px;
+  }
+  ul li a span:hover {
+    color: white;
+  }
+  
+  a:hover span:nth-child(1) {
+    transform: translateY(-150%);
+    transition-delay: 0s;
+  }
+  
+  a:hover span:nth-child(2) {
+    transform: translateY(-150%);
+    transition-delay: 0s;
+  }
+  
+  ul li a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ed2626;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+  }
+  
+  ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: right;
+    transition-delay: 0.5s;
+  }
+  /* fin css navabar*/
+
+
+  /* css image mobile avec description après le hover*/
+   .container {
+    width: 270px;
+    height: 270px;
+    position: relative;
+ }
+ 
+ .container .imgTournante {
+    width: 100%;
+ }
+ 
+ .container:before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   content: '';
+   background-color: #2d3436;
+   opacity: 0.8;
+ }
+ 
+ .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-transform: uppercase;
+ }
+ 
+ h3 {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+ }
+ 
+ #paragraphe {
+    font-size: 14px;
+    width: 80%;
+    align-self: center;
+    text-align: center;
+ }
+ 
+ #linkCard {
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    width: 65%;
+    padding: 25px;
+    margin-bottom: 48px;
+    align-self: center;
+    text-align: center;
+    /* HEIGHT: 100px; */
+    /* vertical-align: text-top; */
+    padding-top: 3px;
+}
+ 
+ /*hovering effect goes here */
+ .container {
+   background-color: #444;
+   border: 10px solid white;
+   overflow: hidden;
+ }
+ 
+ .imgTournante {
+   transition: all 0.5s;
+ }
+ 
+ .container:hover .imgTournante {
+   transform: rotate(720deg) scale(0);
+   opacity: 0;
+ }
+ 
+ .container:before {
+   background-color: #006266;
+   opacity: 0;
+   transition: all 0.3s; 
+ }
+ 
+ .container:hover:before {
+   opacity: 1;
+   transition-delay: 0.5s;
+ }
+ 
+ #linkCard {
+   transform: translateY(-300px);
+   transition: all 0.2s;
+ }
+ 
+ .container:hover #linkCard {
+   transform: translateY(0);
+   transition-delay: 0.5s;
+ }
+ 
+ #paragraphe {
+   transform: translateY(-300px);
+   transition: all 0.2s;
+ }
+ 
+ .container:hover #paragraphe {
+   transform: translateY(0);
+   transition-delay: 0.7s;
+ }
+ 
+ h3 {
+   transform: translateY(-300px);
+   transition: all 0.2s;
+ }
+ 
+ .container:hover h3 {
+   transform: translateY(0);
+   transition-delay: 0.9s;
+ }
