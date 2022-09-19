@@ -110,6 +110,7 @@ p{
 }
 .important{
     font-weight: 800;
+  
 }
 .textAlignCenter{
   text-align: center;
@@ -235,4 +236,15 @@ p{
  .container:hover h3 {
    transform: translateY(0);
    transition-delay: 0.9s;
+ }
+
+
+ /* css buttons page accueil*/
+
+ .btnCenter{
+  display: flex;
+  justify-content: center;
+ }
+ .btnMatieresEnseignees{
+  margin: 2%;
  }
