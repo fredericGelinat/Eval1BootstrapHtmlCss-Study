@@ -1,10 +1,12 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   body {
-    background-color: #f2e7dc;
+    background-color: #FCF8B1ff;
     /* background-color: #333; */
     height: 100vh;
     /* display: flex;
@@ -21,6 +23,9 @@
   }
   
   /**** css *** navbar*/
+  .bg-light {
+    background-color: #D9DA59ff!important;
+}
   ul {
     display: flex;
     flex-direction: row;
@@ -93,7 +98,22 @@
   }
   /* fin css navabar*/
 
+/* css titres et textes pages d'acceuil*/
 
+h1, h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 5%;
+}
+.important{
+    font-weight: 800;
+}
+.textAlignCenter{
+  text-align: center;
+}
+/* fin css titres et textes page d'accueil */
   /* css image mobile avec description après le hover*/
    .container {
     width: 270px;
