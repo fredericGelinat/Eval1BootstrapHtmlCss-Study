@@ -13,6 +13,7 @@
       justify-content: center;
       align-items: center; */
     font-family: "Raleway", Arial, sans-serif;
+    color:#2C83D7ff ;
   }
   header nav {
     display: flex;
