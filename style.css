@@ -6,14 +6,14 @@
     padding: 0;
   }
   body {
-    background-color: #FCF8B1ff;
+    background-color: hsla(265, 27%, 79%, 1);
     /* background-color: #333; */
     height: 100vh;
     /* display: flex;
       justify-content: center;
       align-items: center; */
     font-family: "Raleway", Arial, sans-serif;
-    color:#2C83D7ff ;
+    color: #5E5953ff; ;
   }
   header nav {
     display: flex;
@@ -25,7 +25,7 @@
   
   /**** css *** navbar*/
   .bg-light {
-    background-color: #D9DA59ff!important;
+    background-color: #0096DFff!important;
 }
   ul {
     display: flex;
@@ -113,7 +113,12 @@ p{
   
 }
 .textAlignCenter{
-  text-align: center;
+  display: inline;
+  font-size: smaller;
+  
+}
+.noWrap{
+  display: inline;
 }
 /* fin css titres et textes page d'accueil */
   /* css image mobile avec description après le hover*/
@@ -198,7 +203,7 @@ p{
  }
  
  .container:before {
-   background-color: #006266;
+   background-color: #D83F22ff;
    opacity: 0;
    transition: all 0.3s; 
  }
@@ -240,10 +245,19 @@ p{
 
 
  /* css buttons page accueil*/
+.btn{
+  background-color: #FDF67Bff;
+  color: #2C83D7ff;
 
+}
+.btn:hover{
+  background-color: rgba(198, 186, 215, 1);
+  color: rgba(44, 131, 215, 0.5);
+}
  .btnCenter{
   display: flex;
   justify-content: center;
+  padding: 1em;
  }
  .btnMatieresEnseignees{
   margin: 2%;
