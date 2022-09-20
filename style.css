@@ -162,7 +162,7 @@ p{
     font-size: 17px;
     padding: 20px;
     margin-top: 20px;
-    background: rgba(0, 0, 0, 0.8);
+    background:linear-gradient(90deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);
  }
  
  #paragraphe {
@@ -174,8 +174,8 @@ p{
  
  #linkCard {
     text-decoration: none;
-    background: #000;
-    color: #fff;
+    background: #FCEC3Bff;
+    color: linear-gradient(135deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);;
     width: 65%;
     padding: 25px;
     margin-bottom: 48px;
@@ -188,8 +188,8 @@ p{
  
  /*hovering effect goes here */
  .container {
-   background-color: #444;
-   border: 10px solid white;
+   background-color: #0096DFff;
+   border: 10px solid #C6BAD7ff;
    overflow: hidden;
  }
  
