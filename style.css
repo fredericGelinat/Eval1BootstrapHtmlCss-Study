@@ -1,264 +1,313 @@
 
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    background-color: #25C2E9ff;
-    /* background-color: #333; */
-    height: 100vh;
-    /* display: flex;
-      justify-content: center;
-      align-items: center; */
-    font-family: "Raleway", Arial, sans-serif;
-    color: #5E5953ff; ;
-  }
-  header nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  header nav .btn-outline-primary {
-    color: #00458f;
-  }
-  
-  /**** css *** navbar*/
-  .bg-light {
-    background-color: #D83F22ff!important;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-  ul {
-    display: flex;
-    flex-direction: row;
+body {
+  background-color: hsla(265, 27%, 79%, 1);
+  /* background-color: #333; */
+  height: 100vh;
+  /* display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  
-  ul li {
-    position: relative;
-    list-style: none;
-    margin: 5px;
-  }
-  
-  a {
-    position: relative;
-    display: block;
-    height: 40px;
-    text-decoration: none;
-    padding: 5px 10px;
-    font-weight: 300;
-    letter-spacing: 2px;
-    overflow: hidden;
-  }
-  
-  ul li a span {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    color: rgb(7, 7, 7);
-    font-size: 20px;
-    text-transform: capitalize;
-    transition-delay: 0.5s;
-    margin-top: 4px;
-  }
-  ul li a span:hover {
-    color: white;
-  }
-  
-  a:hover span:nth-child(1) {
-    transform: translateY(-150%);
-    transition-delay: 0s;
-  }
-  
-  a:hover span:nth-child(2) {
-    transform: translateY(-150%);
-    transition-delay: 0s;
-  }
-  
-  ul li a:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #ed2626;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: 0.5s;
-  }
-  
-  ul li a:hover:before {
-    transform: scaleX(1);
-    transform-origin: right;
-    transition-delay: 0.5s;
-  }
-  /* fin css navabar*/
+    align-items: center; */
+  font-family: "Raleway", Arial, sans-serif;
+  color: #5E5953ff; ;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav .btn-outline-primary {
+  color: #00458f;
+}
+
+/**** css *** navbar*/
+.bg-light {
+  background-color: #0096DFff!important;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  position: relative;
+  list-style: none;
+  margin: 5px;
+}
+
+a {
+  position: relative;
+  display: block;
+  height: 40px;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+ul li a span {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+  text-transform: capitalize;
+  transition-delay: 0.5s;
+  margin-top: 4px;
+}
+ul li a span:hover {
+  color: white;
+}
+
+a:hover span:nth-child(1) {
+  transform: translateY(-150%);
+  transition-delay: 0s;
+}
+
+a:hover span:nth-child(2) {
+  transform: translateY(-150%);
+  transition-delay: 0s;
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ed2626;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+
+ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: right;
+  transition-delay: 0.5s;
+}
+/* fin css navabar*/
 
 /* css titres et textes pages d'acceuil*/
 
 h1, h2{
-    text-align: center;
+  text-align: center;
 }
 p{
-    text-align: center;
-    padding: 5%;
+  text-align: center;
+  padding: 5%;
 }
 .important{
-    font-weight: 800;
-  
+  font-weight: 800;
+
 }
 .textAlignCenter{
-  display: inline;
-  font-size: smaller;
-  
+display: inline;
+font-size: smaller;
+
 }
 .noWrap{
-  display: inline;
+display: inline;
 }
 /* fin css titres et textes page d'accueil */
-  /* css image mobile avec description après le hover*/
-   .container {
-    width: 270px;
-    height: 270px;
-    position: relative;
- }
- 
- .container .imgTournante {
-    width: 100%;
-    padding-top: 7%;
- }
- 
- .container:before {
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 100%;
-   width: 100%;
-   content: '';
-   background-color: #2d3436;
-   opacity: 0.8;
- }
- 
- .caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: white;
-    text-transform: uppercase;
- }
- 
- h3 {
-    text-align: center;
-    font-size: 17px;
-    padding: 20px;
-    margin-top: 20px;
-    background:linear-gradient(90deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);
- }
- 
- #paragraphe {
-    font-size: 14px;
-    width: 80%;
-    align-self: center;
-    text-align: center;
- }
- 
- #linkCard {
-    text-decoration: none;
-    background: #FCEC3Bff;
-    color: linear-gradient(135deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);;
-    width: 65%;
-    padding: 25px;
-    margin-bottom: 48px;
-    align-self: center;
-    text-align: center;
-    /* HEIGHT: 100px; */
-    /* vertical-align: text-top; */
-    padding-top: 3px;
-}
- 
- /*hovering effect goes here */
+/* css image mobile avec description après le hover*/
  .container {
-   background-color: #0096DFff;
-   border: 10px solid #C6BAD7ff;
-   overflow: hidden;
- }
- 
- .imgTournante {
-   transition: all 0.5s;
- }
- 
- .container:hover .imgTournante {
-   transform: rotate(720deg) scale(0);
-   opacity: 0;
- }
- 
- .container:before {
-   background-color: #D83F22ff;
-   opacity: 0;
-   transition: all 0.3s; 
- }
- 
- .container:hover:before {
-   opacity: 1;
-   transition-delay: 0.5s;
- }
- 
- #linkCard {
-   transform: translateY(-300px);
-   transition: all 0.2s;
- }
- 
- .container:hover #linkCard {
-   transform: translateY(0);
-   transition-delay: 0.5s;
- }
- 
- #paragraphe {
-   transform: translateY(-300px);
-   transition: all 0.2s;
- }
- 
- .container:hover #paragraphe {
-   transform: translateY(0);
-   transition-delay: 0.7s;
- }
- 
- h3 {
-   transform: translateY(-300px);
-   transition: all 0.2s;
- }
- 
- .container:hover h3 {
-   transform: translateY(0);
-   transition-delay: 0.9s;
- }
+  width: 270px;
+  height: 270px;
+  position: relative;
+}
+
+.container .imgTournante {
+  width: 100%;
+  padding-top: 7%;
+}
+
+.container:before {
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ content: '';
+ background-color: #2d3436;
+ opacity: 0.8;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-size: 17px;
+  padding: 20px;
+  margin-top: 20px;
+  background:linear-gradient(90deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);
+}
+
+#paragraphe {
+  font-size: 14px;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+}
+
+#linkCard {
+  text-decoration: none;
+  background: #FCEC3Bff;
+  color: linear-gradient(135deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);;
+  width: 65%;
+  padding: 25px;
+  margin-bottom: 48px;
+  align-self: center;
+  text-align: center;
+  /* HEIGHT: 100px; */
+  /* vertical-align: text-top; */
+  padding-top: 3px;
+}
+
+/*hovering effect goes here */
+.container {
+ background-color: #0096DFff;
+ border: 10px solid #C6BAD7ff;
+ overflow: hidden;
+}
+
+.imgTournante {
+ transition: all 0.5s;
+}
+
+.container:hover .imgTournante {
+ transform: rotate(720deg) scale(0);
+ opacity: 0;
+}
+
+.container:before {
+ background-color: #D83F22ff;
+ opacity: 0;
+ transition: all 0.3s; 
+}
+
+.container:hover:before {
+ opacity: 1;
+ transition-delay: 0.5s;
+}
+
+#linkCard {
+ transform: translateY(-300px);
+ transition: all 0.2s;
+}
+
+.container:hover #linkCard {
+ transform: translateY(0);
+ transition-delay: 0.5s;
+}
+
+#paragraphe {
+ transform: translateY(-300px);
+ transition: all 0.2s;
+}
+
+.container:hover #paragraphe {
+ transform: translateY(0);
+ transition-delay: 0.7s;
+}
+
+h3 {
+ transform: translateY(-300px);
+ transition: all 0.2s;
+}
+
+.container:hover h3 {
+ transform: translateY(0);
+ transition-delay: 0.9s;
+}
 
 
- /* css buttons page accueil*/
+/* css buttons page accueil*/
 .btn{
-  background-color: #FDF67Bff;
-  color: #2C83D7ff;
+background-color: #FDF67Bff;
+color: #2C83D7ff;
 
 }
 .btn:hover{
-  background-color: rgba(253, 153, 29, 1);;
-  color: white
+background-color: rgba(253, 153, 29, 1);;
+color: white
 }
- .btnCenter{
-  display: flex;
-  justify-content: center;
-  padding: 1em;
- }
- .btnMatieresEnseignees{
-  margin: 2%;
- }
+.btnCenter{
+display: flex;
+justify-content: center;
+padding: 1em;
+}
+.btnMatieresEnseignees{
+margin: 2%;
+}
+
+ /* css effets swap buttons */
+
+ 
+ #effetButtons {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: verdana;
+  letter-spacing: 3px;
+  height: 60px;
+  width: 200px;
+  line-height: 60px;
+  text-align: center;
+  color: #FDC518;
+  position: relative;
+}
+
+#effetButtons:before {
+  content: "";
+  position: absolute;
+  height: 90px;
+  width: 200px;
+  top: -15px;
+  left: 0;
+  border-left: 2px solid red;
+  border-right: 2px solid #FDC518;
+  transition: all 01s;
+}
+
+#effetButtons:after {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 230px;
+  top: 0;
+  left: -15px;
+  border-top: 2px solid red;
+  border-bottom: 2px solid #FDC518;
+  transition: all 1s;
+}
+
+#effetButtons:hover:before {
+  transform: rotateY(180deg);
+}
+
+#effetButtons:hover:after {
+  transform: rotateX(180deg);
+}
