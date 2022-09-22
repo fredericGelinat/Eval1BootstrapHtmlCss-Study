@@ -6,7 +6,7 @@
   padding: 0;
 }
 body {
-  background-color: hsla(265, 27%, 79%, 1);
+  background-color: linear-gradient(0deg, #2EB0DFff, #DC4C86ff, #F7AFAFff, #C2F6FBff, #2D6D85ff, #FCC5CCff, #150C21ff, #8F576Cff, #A4AE7Cff, #FDE2E0ff);;
   /* background-color: #333; */
   height: 100vh;
   /* display: flex;
