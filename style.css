@@ -246,12 +246,12 @@ h3 {
 
 /* css buttons page accueil*/
 .btn{
-background-color: #FDF67Bff;
+background-color: rgba(46, 176, 223, 1);;
 color: #2C83D7ff;
 
 }
 .btn:hover{
-background-color: rgba(253, 153, 29, 1);;
+background-color: hsla(336, 67%, 58%, 1);
 color: white
 }
 .btnCenter{
@@ -276,8 +276,9 @@ margin: 2%;
   width: 200px;
   /* line-height: 60px; */
   text-align: center;
-  color: #FDC518;
+  color: rgba(253, 226, 224, 1);
   position: relative;
+  margin: 1em;
 }
 
 #effetButtons:before {
@@ -287,8 +288,8 @@ margin: 2%;
   width: 200px;
   top: -15px;
   left: 0;
-  border-left: 2px solid red;
-  border-right: 2px solid #FDC518;
+  border-left: 4px solid rgba(194, 246, 251, 1);
+  border-right: 4px solid rgba(45, 109, 133, 1);
   transition: all 01s;
 }
 
@@ -299,8 +300,8 @@ margin: 2%;
   width: 230px;
   top: 0;
   left: -15px;
-  border-top: 2px solid red;
-  border-bottom: 2px solid #FDC518;
+  border-top: 4px solid rgba(247, 175, 175, 1);
+  border-bottom: 4px solid #FDC518;
   transition: all 1s;
 }
 
