@@ -317,7 +317,7 @@ h3 {
 
 background-color: #dc4c86;
 color: white;
-padding: 1em;
+margin: 1em;
 
 }
 .btn:hover{
@@ -329,14 +329,12 @@ display: flex;
 justify-content: center;
 padding: 1em;
 }
-.btnMatieresEnseignees{
-margin: 2%;
-}
+
 
  /* css effets swap buttons */
 
  
- #effetButtons {
+ .effetButtons {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -353,34 +351,37 @@ margin: 2%;
   margin: 1em;
 }
 
-#effetButtons:before {
+.effetButtons:before {
   content: "";
   position: absolute;
   height: 114px;
   width: 230px;
   top: -15px;
   left: 0;
-  border-left: 4px solid rgb(144, 233, 121);
-  border-right: 4px solid rgb(216, 51, 51);
+  border-left: 4px solid #040F10;
+  border-right: 4px solid #001010;
   transition: all 01s;
+  transition: all 1.6s cubic-bezier(.17,.67,.66,.8);
+  border-radius: 3%;
 }
 
-#effetButtons:after {
+.effetButtons:after {
   content: "";
   position: absolute;
   height: 84px;
   width: 255px;
   top: 0;
   left: -15px;
-  border-top: 4px solid rgba(247, 175, 175, 1);
-  border-bottom: 4px solid #FDC518;
-  transition: all 1s;
+  border-top: 4px solid #001010;
+  border-bottom: 4px solid #040F10;
+  transition: all 1.6s cubic-bezier(.17,.67,.66,.8);
+  border-radius: 3%;
 }
 
-#effetButtons:hover:before {
+.effetButtons:hover:before {
   transform: rotateY(180deg);
 }
 
-#effetButtons:hover:after {
+.effetButtons:hover:after {
   transform: rotateX(180deg);
 }
