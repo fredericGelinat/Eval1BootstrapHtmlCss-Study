@@ -316,7 +316,8 @@ h3 {
 .btn{
 
 background-color: #dc4c86;
-color: white
+color: white;
+padding: 1em;
 
 }
 .btn:hover{
@@ -342,8 +343,8 @@ margin: 2%;
   font-weight: 900;
   font-family: verdana;
   letter-spacing: 3px;
-  height: 60px;
-  width: 200px;
+  height: 86px;
+  width: 232px;
   /* line-height: 60px; */
   text-align: center;
   /* color: #6D0E09; */
@@ -355,8 +356,8 @@ margin: 2%;
 #effetButtons:before {
   content: "";
   position: absolute;
-  height: 90px;
-  width: 200px;
+  height: 114px;
+  width: 230px;
   top: -15px;
   left: 0;
   border-left: 4px solid rgb(144, 233, 121);
@@ -367,8 +368,8 @@ margin: 2%;
 #effetButtons:after {
   content: "";
   position: absolute;
-  height: 60px;
-  width: 230px;
+  height: 84px;
+  width: 255px;
   top: 0;
   left: -15px;
   border-top: 4px solid rgba(247, 175, 175, 1);
