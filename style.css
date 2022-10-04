@@ -25,7 +25,7 @@
   
   /**** css *** navbar*/
   .bg-light {
-    background-color: #D83F22ff!important;
+    background-color: rgba(37, 194, 233, 1)!important;
 }
   ul {
     display: flex;
