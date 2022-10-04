@@ -1,4 +1,4 @@
-
+/* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
 
 * {
     box-sizing: border-box;
@@ -12,8 +12,8 @@
     /* display: flex;
       justify-content: center;
       align-items: center; */
-    font-family: "Raleway", Arial, sans-serif;
     color:#2C83D7ff ;
+    text-transform: lowercase;
   }
   header nav {
     display: flex;
@@ -100,7 +100,11 @@
   /* fin css navabar*/
 
 /* css titres et textes pages d'acceuil*/
+.container-fluid{
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
 
+}
 h1, h2{
     text-align: center;
     margin-bottom: 1em;
@@ -116,7 +120,11 @@ p{
   text-align: center;
 }
 /* fin css titres et textes page d'accueil */
-  /* css image mobile avec description après le hover*/
+
+
+
+
+  /* css image mobile box tournante avec description après le hover*/
    .container {
     width: 270px;
     height: 270px;
