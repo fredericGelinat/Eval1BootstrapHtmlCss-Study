@@ -323,6 +323,8 @@ margin: 1em;
 .btn:hover{
   background-color: #70d5d7;
   color: #2C83D7ff;
+  transition: all 0.5s cubic-bezier(.17,.67,.66,.8);
+
 }
 .btnCenter{
 display: flex;
@@ -358,8 +360,8 @@ padding: 1em;
   width: 230px;
   top: -15px;
   left: 0;
-  border-left: 4px solid #040F10;
-  border-right: 4px solid #001010;
+  border-left: 2px solid #040F10;
+  border-right: 2px solid #001010;
   transition: all 01s;
   transition: all 1.6s cubic-bezier(.17,.67,.66,.8);
   border-radius: 3%;
@@ -372,8 +374,8 @@ padding: 1em;
   width: 255px;
   top: 0;
   left: -15px;
-  border-top: 4px solid #001010;
-  border-bottom: 4px solid #040F10;
+  border-top: 2px solid #001010;
+  border-bottom: 2px solid #040F10;
   transition: all 1.6s cubic-bezier(.17,.67,.66,.8);
   border-radius: 3%;
 }
