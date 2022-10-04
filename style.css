@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -163,19 +163,39 @@ ul li a:hover:before {
 /* fin css navabar*/
 
 /* css titres et textes pages d'accueil*/
+#apostrophe{
+  font-family: 'Satisfy', cursive;
+  padding: 0;
+
+}
 h1{
   margin-top: 1em;
+  color: #404040;
+  text-transform: uppercase;
 }
-/* css titres et textes pages d'acceuil*/
-.container-fluid{
-  font-family: 'Caveat', cursive;
-  font-size: 2em;
+#H1Apostrophe{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: 0.2em;
 
+}
+h2{
+  color: #000;
+  text-transform: capitalize;
 }
 h1, h2{
     text-align: center;
     margin-bottom: 1em;
 }
+/* css titres et textes pages d'acceuil*/
+.container-fluid{
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+  color: #0F3457;
+  text-transform:initial;
+}
+
 p{
   text-align: center;
   padding: 5%;
@@ -266,6 +286,11 @@ color: #000000;
 
 
 /* css image mobile avec description après le hover*/
+
+.cubicBezier{
+  transition: all 0.5s cubic-bezier(.43,.01,0,1.19);
+
+}
  .container {
   width: 270px;
   height: 270px;
@@ -302,6 +327,7 @@ color: #000000;
 }
 
 h3 {
+
   color: white;
   text-align: center;
   font-size: 17px;
@@ -319,18 +345,26 @@ h3 {
 
 #linkCard {
   text-decoration: none;
-  background: #FCEC3Bff;
-  color: #003E80;
-  width: 65%;
-  padding: 25px;
-  margin-bottom: 48px;
+  color: #FCEC3Bff;
+  background-color: #003E80;
+  width: 100%;
+  padding-top: 6%;
+  margin-top: 1em;
   align-self: center;
   text-align: center;
-  /* HEIGHT: 100px; */
-  /* vertical-align: text-top; */
-  padding-top: 3px;
+  border-radius: 5px;
 }
-
+#linkCard:hover {
+  text-decoration: none;
+ background-color: #FCEC3Bff;
+  color: #003E80;
+  width: 100%;
+  padding-top: 6%;
+  margin-top: 1em;
+  align-self: center;
+  text-align: center;
+ border-radius: 5px;
+}
 /*hovering effect goes here */
 .container {
  background-color: #0096DFff;
@@ -384,8 +418,14 @@ h3 {
 }
 
 .container:hover h3 {
- transform: translateY(0);
- transition-delay: 0.9s;
+  transform: translateY(0);
+  transition-delay: 0.9s;
+  /* text-align: center; */
+  /* align-items: center; */
+  font-size: 0.5em;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding-top: 29%;
 }
 
 
