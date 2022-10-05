@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap');
 
 * {
   box-sizing: border-box;
@@ -224,16 +225,7 @@ p {
   padding: 5%;
 }
 
-.MargTParagraphe {
-  margin-top: 1.5em;
-  color: #0F3457;
-  font-size: 1em;
-  text-transform: initial;
-  text-align: start;
-  letter-spacing: 3px;
- 
-}
-.MargTParagraphe p, span {
+.miseEnFormeParagraphe {
   margin-top: 1.5em;
   color: #0F3457;
   font-size: 1em;
@@ -242,14 +234,34 @@ p {
   letter-spacing: 3px;
  
 }
-.MargTParagraphe .contactonsNous, a{
+#miseEnFormeParagraphe{
+  margin-top: 1.5em;
+  color: #0F3457;
+  font-size: 0.7em;
+  text-transform: initial;
+  text-align: start;
+}
+/* #miseEnFormeParagraphe, .important{
+  font-weight: 900;
+  text-decoration: underline;
+} */
+
+/* .MargTParagraphe p + span {
+  margin-top: 1.5em;
+  color: #0F3457;
+  font-size: 1em;
+  text-transform: initial;
+  text-align: center;
+  letter-spacing: 3px;
+ 
+}
+.MargTParagraphe .contactonsNous:a{
   margin-top: 1.5em;
   color: #0F3457;
   font-size: 1.08rem;
   text-transform: initial;
   /* text-align: center; */
   /* letter-spacing: 6px; */
-}
 .important {
   font-weight: bold;
   text-decoration: underline;
@@ -577,7 +589,12 @@ white-space:nowrap;}
 #MargTImage {
   margin-top: 2em;
 }
-
+/* footer qui sommes nous*/
+.about{
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 1.3em;
+  margin-top: 4em;
+}
 /* footer icones sociaux*/
 
 .icons {
