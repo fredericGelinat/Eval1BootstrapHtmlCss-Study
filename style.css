@@ -585,10 +585,26 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-/* margin top image*/
+/* margin top and centered image*/
 
 #MargTImage {
   margin-top: 2em;
+
+}
+.LogoTaille{
+  display: flex ;
+  justify-content: center;
+}
+.LogoTaille img{
+  width: 9em;
+  margin: 1em;
+
+}
+
+#Centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* footer qui sommes nous*/
 .about{
