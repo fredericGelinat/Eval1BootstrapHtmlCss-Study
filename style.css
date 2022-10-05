@@ -527,7 +527,7 @@ white-space:nowrap;}
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 900;
-  font-family: 'Gentium Book Basic', serif;
+  /* font-family: 'Gentium Book Basic', serif; */
   letter-spacing: 3px;
   height: 86px;
   width: 14em;
