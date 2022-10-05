@@ -59,8 +59,9 @@
     align-items: center;
     justify-content: center;
     align-items: center; 
-  font-family: "Raleway", Arial, sans-serif;
-  color: #5E5953ff; ;
+    font-family: 'Caveat', cursive;
+
+    color: #5E5953ff; ;
 }
 header nav {
   display: flex;
@@ -202,7 +203,7 @@ p{
   padding: 5%;
 }
 .MargTParagraphe{
-  margin-top: 1em;
+  margin-top: 1.5em;
 }
 .important{
   font-weight: bold;
@@ -210,8 +211,7 @@ p{
 }
 .textAlignCenter{
 display: inline;
-font-size: smaller;
-
+font-size: 29px;
 }
 .noWrap{
 display: inline;
@@ -289,7 +289,7 @@ color: #000000;
 /* fin css titres et textes page d'accueil */
 
 
-/* css image mobile avec description après le hover*/
+/* css image mobile box tournante avec description après le hover*/
 
 .cubicBezier{
   transition: all 0.5s cubic-bezier(.43,.01,0,1.19);
@@ -434,17 +434,18 @@ h3 {
 
 
 /* css buttons page accueil*/
-.btn{
-
-background-color: #dc4c86;
-color: white;
-margin: 1em;
-
+.btn {
+  background-color: #dc4c86;
+  color: white;
+  margin: 1em;
+  /* padding: 1em; */
+  font-size: 1.2em;
 }
 .btn:hover{
   background-color: #70d5d7;
   color: #2C83D7ff;
   transition: all 0.5s cubic-bezier(.17,.67,.66,.8);
+  font-weight: 900;
 
 }
 .btnCenter{
@@ -507,4 +508,11 @@ padding: 1em;
 
 .effetButtons:hover:after {
   transform: rotateX(180deg);
+}
+
+
+/* margin top image*/
+
+#MargTImage{
+  margin-top: 2em;
 }
