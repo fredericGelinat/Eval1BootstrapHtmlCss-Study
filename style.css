@@ -184,7 +184,7 @@ ul li a:hover:before {
   margin-top: 3em;
 }
 /* css titres et textes pages d'accueil*/
-#apostrophe {
+.apostrophe {
   font-family: 'Satisfy', cursive;
   padding: 0;
   color: #dc4c86;
@@ -197,7 +197,7 @@ h1 {
   text-transform: uppercase;
 }
 
-#H1Apostrophe {
+.H1Apostrophe {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -268,7 +268,7 @@ p {
 
 .noWrap {
   display: inline;
-  color: #000000;
+  color: #DC4C86ff;
 }
 
 .colorRed {
