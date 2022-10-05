@@ -578,7 +578,13 @@ white-space:nowrap;}
   transform: rotateX(180deg);
 }
 
-
+/* textAlignCenter*/
+.textAlignCenter{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 /* margin top image*/
 
 #MargTImage {
@@ -661,6 +667,8 @@ white-space:nowrap;}
   justify-content: center;
   border-top: 2px solid black;
   padding: 1.5em;
+  color: #dc4c86;
+  font-family: 'Gentium Book Basic', serif;
   
 }
 .menuFooter a{
