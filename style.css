@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap");
 
 * {
   box-sizing: border-box;
@@ -11,14 +11,14 @@
 
 body {
   background-color: rgb(183, 227, 239);
-  /* background-color: #333; */
   height: 100vh;
-  /* display: flex;
-      justify-content: center;
-      align-items: center; */
-  color: #2C83D7ff;
+  color: #2c83d7ff;
   text-transform: lowercase;
 }
+
+
+
+/**** css *** navbar*/
 
 header nav {
   display: flex;
@@ -29,7 +29,6 @@ header nav .btn-outline-primary {
   color: #00458f;
 }
 
-/**** css *** navbar*/
 .bg-light {
   background-color: rgba(37, 194, 233, 1) !important;
 }
@@ -66,10 +65,9 @@ ul li a span {
   align-items: center;
   justify-content: center;
   align-items: center;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 
-  color: #5E5953ff;
-  ;
+  color: #5e5953ff;
 }
 
 header nav {
@@ -83,7 +81,7 @@ header nav .btn-outline-primary {
 
 /**** css *** navbar*/
 .bg-light {
-  background-color: #0096DFff !important;
+  background-color: #0096dfff !important;
 }
 
 ul {
@@ -110,7 +108,7 @@ a {
   overflow: hidden;
 }
 
-ul li a span {
+/* ul li a span {
   position: relative;
   width: 100%;
   height: 100%;
@@ -124,7 +122,7 @@ ul li a span {
   transition-delay: 0.5s;
   margin-top: 4px;
   font-size: 2rem;
-}
+} */
 
 ul li a span:hover {
   color: rgb(253, 251, 251);
@@ -162,33 +160,33 @@ ul li a:hover:before {
 
 .dropdown-item {
   color: rgb(254, 254, 254);
-  background-color: #0096DFff;
+  background-color: #0096dfff;
   border-radius: 5px;
   font-size: 24px;
 }
 
 .dropdown-item:hover {
-  color: #0096DFff;
+  color: #0096dfff;
   background-color: rgb(248, 249, 250);
   border-radius: 5px;
 }
 
 .dropdown-menu {
-  background-color: #0096DFff;
+  background-color: #0096dfff;
   border: 1px solid whitesmoke;
 }
 
 /* fin css navabar*/
 /* BANNIERE IMG*/
-#banniereImg{
+#banniereImg {
   margin-top: 3em;
 }
+
 /* css titres et textes pages d'accueil*/
 .apostrophe {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   padding: 0;
   color: #dc4c86;
-
 }
 
 h1 {
@@ -202,7 +200,6 @@ h1 {
   flex-direction: row;
   justify-content: center;
   letter-spacing: 0.2em;
-
 }
 
 h2 {
@@ -219,9 +216,9 @@ h2 {
 
 /* css titres et textes pages d'acceuil*/
 .container-fluid {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   font-size: 2em;
-  color: #0F3457;
+  color: #0f3457;
   text-transform: initial;
 }
 
@@ -231,31 +228,30 @@ p {
 
 .miseEnFormeParagraphe {
   margin-top: 1.5em;
-  color: #0F3457;
+  color: #0f3457;
   font-size: 1em;
   text-transform: initial;
   text-align: center;
   letter-spacing: 3px;
- 
 }
-#miseEnFormeParagraphe{
+
+#miseEnFormeParagraphe {
   margin-top: 1.5em;
-  color: #0F3457;
+  color: #0f3457;
   font-size: 0.7em;
   text-transform: initial;
   text-align: start;
 }
 
-
-
-.MargTParagraphe .contactonsNous  a{
+.MargTParagraphe .contactonsNous a {
   margin-top: 1.5em;
-  color: #0F3457;
+  color: #0f3457;
   font-size: 1.08rem;
   text-transform: initial;
   /* text-align: center; */
   /* letter-spacing: 6px; */
 }
+
 .important {
   font-weight: bold;
   text-decoration: underline;
@@ -268,18 +264,15 @@ p {
 
 .noWrap {
   display: inline;
-  color: #DC4C86ff;
+  color: #dc4c86ff;
 }
 
 .colorRed {
-  color: #DC4C86ff;
+  color: #dc4c86ff;
   text-transform: capitalize;
 }
 
 /* fin css titres et textes page d'accueil */
-
-
-
 
 /* css image mobile box tournante avec description après le hover*/
 .container {
@@ -299,7 +292,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  content: '';
+  content: "";
   background-color: #2d3436;
   opacity: 0.8;
 }
@@ -348,12 +341,10 @@ h3 {
 
 /* fin css titres et textes page d'accueil */
 
-
 /* css image mobile box tournante avec description après le hover*/
 
 .cubicBezier {
-  transition: all 0.5s cubic-bezier(.43, .01, 0, 1.19);
-
+  transition: all 0.5s cubic-bezier(0.43, 0.01, 0, 1.19);
 }
 
 .container {
@@ -373,7 +364,7 @@ h3 {
   left: 0;
   height: 100%;
   width: 100%;
-  content: '';
+  content: "";
   background-color: #2d3436;
   opacity: 0.8;
 }
@@ -392,13 +383,19 @@ h3 {
 }
 
 h3 {
-
   color: white;
   text-align: center;
   font-size: 17px;
   padding: 20px;
   margin-top: 20px;
-  background: linear-gradient(290deg, #FD991Dff, #C6BAD7ff, #5E5953ff, #0096DFff, #D83F22ff, #25C2E9ff, #FCEC3Bff);
+  background: linear-gradient(290deg,
+      #fd991dff,
+      #c6bad7ff,
+      #5e5953ff,
+      #0096dfff,
+      #d83f22ff,
+      #25c2e9ff,
+      #fcec3bff);
 }
 
 #paragraphe {
@@ -410,8 +407,8 @@ h3 {
 
 #linkCard {
   text-decoration: none;
-  color: #FCEC3Bff;
-  background-color: #003E80;
+  color: #fcec3bff;
+  background-color: #003e80;
   width: 100%;
   padding-top: 6%;
   margin-top: 1em;
@@ -422,8 +419,8 @@ h3 {
 
 #linkCard:hover {
   text-decoration: none;
-  background-color: #FCEC3Bff;
-  color: #003E80;
+  background-color: rgb(252, 59, 107);
+  color: #ceff90;
   width: 100%;
   padding-top: 6%;
   margin-top: 1em;
@@ -434,7 +431,7 @@ h3 {
 
 /*hovering effect goes here */
 .container {
-  background-color: #0096DFff;
+  background-color: #0096dfff;
   border: 10px solid rgba(52, 137, 179, 0.924);
   overflow: hidden;
 }
@@ -449,7 +446,7 @@ h3 {
 }
 
 .container:before {
-  background-color: #CEFF90;
+  background-color: rgb(147, 219, 239);
   opacity: 0;
   transition: all 0.3s;
 }
@@ -495,7 +492,6 @@ h3 {
   padding-top: 29%;
 }
 
-
 /* css buttons page accueil*/
 .btn {
   background-color: #dc4c86;
@@ -507,10 +503,9 @@ h3 {
 
 .btn:hover {
   background-color: #70d5d7;
-  color: #2C83D7ff;
-  transition: all 0.5s cubic-bezier(.17, .67, .66, .8);
+  color: #2c83d7ff;
+  transition: all 0.5s cubic-bezier(0.17, 0.67, 0.66, 0.8);
   font-weight: 900;
-
 }
 
 .btnCenter {
@@ -519,11 +514,11 @@ h3 {
   padding: 1em;
 }
 
-.widthButton{
-white-space:nowrap;}
+.widthButton {
+  white-space: nowrap;
+}
 
 /* css effets swap buttons */
-
 
 .effetButtons {
   text-decoration: none;
@@ -549,10 +544,10 @@ white-space:nowrap;}
   width: 14em;
   top: -15px;
   left: 0;
-  border-left: 2px solid #040F10;
+  border-left: 2px solid #040f10;
   border-right: 2px solid #001010;
   transition: all 01s;
-  transition: all 1.6s cubic-bezier(.17, .67, .66, .8);
+  transition: all 1.6s cubic-bezier(0.17, 0.67, 0.66, 0.8);
   border-radius: 3%;
 }
 
@@ -564,10 +559,9 @@ white-space:nowrap;}
   top: 0;
   left: -15px;
   border-top: 2px solid #001010;
-  border-bottom: 2px solid #040F10;
-  transition: all 1.6s cubic-bezier(.17, .67, .66, .8);
+  border-bottom: 2px solid #040f10;
+  transition: all 1.6s cubic-bezier(0.17, 0.67, 0.66, 0.8);
   border-radius: 3%;
-
 }
 
 .effetButtons:hover:before {
@@ -579,40 +573,43 @@ white-space:nowrap;}
 }
 
 /* textAlignCenter*/
-.textAlignCenter{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.textAlignCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 /* margin top and centered image*/
 
 #MargTImage {
   margin-top: 2em;
-
 }
-.LogoTaille{
-  display: flex ;
+
+.LogoTaille {
+  display: flex;
   justify-content: center;
 }
-.LogoTaille img{
+
+.LogoTaille img {
   width: 9em;
   margin: 1em;
-
 }
 
-#Centered{
+#Centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* footer qui sommes nous*/
-.about{
-  font-family: 'Gentium Book Basic', serif;
+.about {
+  font-family: "Gentium Book Basic", serif;
   font-size: 1.3em;
   margin-top: 4em;
   color: #001010;
 }
+
 /* footer icones sociaux*/
 
 .icons {
@@ -629,54 +626,48 @@ align-items: center;
 
 /* footer contact*/
 
-.footer-center, .footer-right{
+.footer-center,
+.footer-right {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: -24px; */
 
-
-
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* margin: -24px; */
-  
-    /* WIDTH: 100%; */
-    flex: 0;
-    max-width: 100%;
-
-
-
-
+  /* WIDTH: 100%; */
+  flex: 0;
+  max-width: 100%;
 }
 
-.footer-left{
+.footer-left {
   max-width: 100%;
   text-align: center;
 }
+
 .contactFooter {
   text-align: center;
   color: #001010;
   display: block;
-  font-family: 'Gentium Book Basic', serif;
-  FONT-SIZE: 1.5EM;
+  font-family: "Gentium Book Basic", serif;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
+
 .contactFooter a {
   height: 2.5em;
   font-size: 2em;
   text-transform: initial;
 }
+
 .contactFooter i {
   color: #dc4c86;
   font-size: 2em;
- 
 }
-
-
 
 /*footer menu footer*/
 
-.menuFooter{
+.menuFooter {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -684,11 +675,11 @@ align-items: center;
   border-top: 2px solid black;
   padding: 1.5em;
   color: #dc4c86;
-  font-family: 'Gentium Book Basic', serif;
-  
+  font-family: "Gentium Book Basic", serif;
 }
-.menuFooter a{
-  color: #040F10;
+
+.menuFooter a {
+  color: #040f10;
   font-size: 1.8em;
   text-transform: capitalize;
 }
